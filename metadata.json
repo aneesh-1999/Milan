@@ -1,0 +1,6 @@
+{
+  "name": "Milan",
+  "description": "A private, two-person app for a long-distance couple (Malta & Nepal) to stay emotionally connected.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

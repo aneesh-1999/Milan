@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central Glowing Heart Base -->
+    <path
+        android:pathData="M54,76 C54,76 34,60 26,46 C19,34 26,22 38,22 C45,22 51,27 54,32 C57,27 63,22 70,22 C82,22 89,34 82,46 C74,60 54,76 54,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="22"
+                android:endX="82"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C084FC" />
+                <item android:offset="0.5" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Heart Accent -->
+    <path
+        android:pathData="M54,68 C54,68 39,55 33,43 C28,34 33,26 41,26 C46,26 51,30 54,34 C57,30 62,26 67,26 C75,26 80,34 75,43 C69,55 54,68 54,68 Z"
+        android:fillColor="#30FFFFFF" />
+
+    <!-- Malta/Nepal Twin Orbit Connection Arc -->
+    <path
+        android:pathData="M32,58 C38,68 70,68 76,58"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Sparkle Stars -->
+    <path
+        android:pathData="M78,28 L80,22 L82,28 L88,30 L82,32 L80,38 L78,32 L72,30 Z"
+        android:fillColor="#FDF4FF" />
+
+    <path
+        android:pathData="M30,34 L31,30 L32,34 L36,35 L32,36 L31,40 L30,36 L26,35 Z"
+        android:fillColor="#FDF4FF" />
+</vector>
